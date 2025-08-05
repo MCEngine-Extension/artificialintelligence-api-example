@@ -94,6 +94,6 @@ public class ExampleAPI implements IMCEngineArtificialIntelligenceAddOn {
 
     @Override
     public void setId(String id) {
-        MCEngineCoreApi.setId("artificialintelligence-addon-example");
+        MCEngineCoreApi.setId("mcengine-artificialintelligence-api-example");
     }
 }
