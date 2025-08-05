@@ -1,4 +1,4 @@
-package io.github.mcengine.extension.example.api;
+package io.github.mcengine.extension.api.example;
 
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
