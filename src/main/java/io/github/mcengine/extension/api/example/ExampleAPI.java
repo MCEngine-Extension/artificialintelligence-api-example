@@ -21,7 +21,7 @@ import java.util.List;
 /**
  * Main class for the ExampleAPI.
  * <p>
- * Registers the /aiapiexample command and event listeners.
+ * Registers the {@code /aiapiexample} command and event listeners.
  */
 public class ExampleAPI implements IMCEngineArtificialIntelligenceAddOn {
 
@@ -38,7 +38,7 @@ public class ExampleAPI implements IMCEngineArtificialIntelligenceAddOn {
         try {
             // Register event listener
             PluginManager pluginManager = Bukkit.getPluginManager();
-            pluginManager.registerEvents(new APIListener(plugin), plugin);
+            pluginManager.registerEvents(new APIListener(plugin, logger), plugin);
 
             // Reflectively access Bukkit's CommandMap
             Field commandMapField = Bukkit.getServer().getClass().getDeclaredField("commandMap");
