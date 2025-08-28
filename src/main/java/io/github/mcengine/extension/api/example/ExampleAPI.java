@@ -80,11 +80,6 @@ public class ExampleAPI implements IMCEngineArtificialIntelligenceAddOn {
             logger.warning("Failed to initialize ExampleAPI: " + e.getMessage());
             e.printStackTrace();
         }
-
-        // Check for updates
-        MCEngineCoreApi.checkUpdate(plugin, logger.getLogger(),
-            "github", "MCEngine-Extension", "artificialintelligence-addon-example",
-            plugin.getConfig().getString("github.token", "null"));
     }
 
     @Override
