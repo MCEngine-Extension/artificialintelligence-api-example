@@ -23,7 +23,7 @@ import java.util.List;
  * <p>
  * Registers the {@code /aiapiexample} command and event listeners.
  */
-public class ExampleAPI implements IMCEngineArtificialIntelligenceAddOn {
+public class ExampleAIAPI implements IMCEngineArtificialIntelligenceAddOn {
 
     /**
      * Initializes the ExampleAPI.
